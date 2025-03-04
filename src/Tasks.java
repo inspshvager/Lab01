@@ -9,8 +9,8 @@ public class Tasks {
         int a = in.nextInt();
         int b = in.nextInt();
         System.out.println(a + " + " + b + " = " + (a + b));
-        System.out.println(a + " - " + b + " = " + (a + b));
-        System.out.println(a + " * " + b + " = " + (a + b));
+        System.out.println(a + " - " + b + " = " + (a - b));
+        System.out.println(a + " * " + b + " = " + (a * b));
     }
     public boolean task03(int num){
         return num % 2 == 0;
